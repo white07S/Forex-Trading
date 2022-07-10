@@ -10,7 +10,7 @@ A simple implementation of HFT (High-Frequency Trading) in Python on the concept
 # Some basic information:
 * Support tensorboard 
 * Written in TensorFlow v1 
-* So if you using TensorFlow v2 then import this on top of the code 
+* if you using TensorFlow v2 then import this on top of the code to avoid conflict of depreciated function like random_seed_set and session
 
 ```
 import tensorflow.compat.v1 as tf
