@@ -33,11 +33,11 @@ pip install -r requirements.txt
 ```
 * Training
 ```
-python3 main.py
+python3 index.py
 ```
 * Code Documentation
 ```
-python3 main.py -h
+python3 index.py -h
 ```
 * Tensorborad results link
 ```
