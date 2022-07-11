@@ -31,7 +31,7 @@ tf.disable_v2_behavior()
 ```
 pip install -r requirements.txt
 ```
-* Training
+# Training
 ```
 python3 index.py
 ```
@@ -44,10 +44,11 @@ python3 index.py -h
 https://tensorboard.dev/experiment/H86sR9cmRlOUvRV8yBwLEA/
 ```
 
-* Results
-
-
-
+# Results
+* Map
+![Map](https://github.com/white07S/Forex-Trading/blob/main/snaps/data_tmp.png)
+* Result
+![Result](https://github.com/white07S/Forex-Trading/blob/main/snaps/result.png)
 
 # Remarks
 * Results will be different if you are using leverage (for testing purpose 50x leverage is used) and charge based on your broker
