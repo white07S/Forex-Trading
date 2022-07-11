@@ -1,0 +1,2 @@
+batch_size,count,dataType,dateEnd,dateStart,dir,e_greedy,e_greedy_increment,init_b,init_w_mean,init_w_std,interval,l1_dim,learn_period,learning_rate,memory_size,op_decay,op_epsilon,op_momentum,op_rho,optimizer,replace_target_iter,reward_decay,startStep
+32,3,mid,20170101,20170101,tmp,1.0,1e-06,0.01,0.0,0.01,300000,60,1,0.9,1500000,,,0.95,,RMSProp,30000,0.9,1500
