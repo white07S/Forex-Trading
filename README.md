@@ -20,7 +20,8 @@ tf.disable_v2_behavior()
 * HFT (High-Frequency Trading): High-frequency trading (HFT) is a type of algorithmic financial trading characterized by high speeds, high turnover rates, and high order-to-trade ratios that leverages high-frequency financial data and electronic trading tools. 
 * More info: https://www.investopedia.com/terms/h/high-frequency-trading.asp
 
-# Testing Data
+# Training Data
+* 1000 Episodes
 * EURUSD (5 min interval - 2 Year Period)
 * GBPUSD (5 min interval -2 Year Period)
 
@@ -32,13 +33,19 @@ pip install -r requirements.txt
 ```
 * Training
 ```
-python3 main.py
+python3 index.py
 ```
 * Code Documentation
 ```
-python3 main.py -h
+python3 index.py -h
 ```
-* Results snapshot
+* Tensorborad results link
+```
+https://tensorboard.dev/experiment/H86sR9cmRlOUvRV8yBwLEA/
+```
+
+* Results
+
 
 
 
