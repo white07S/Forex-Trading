@@ -5,7 +5,8 @@ import os
 import sys
 import getopt
 import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from forex import Forex
 from core import DeepNetwork
 from config import getConfig

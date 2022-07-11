@@ -1,6 +1,8 @@
 import numpy as np
 import tensorflow as tf
 import datetime as dt
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from account import Account
 from account import STOP, BUY, SELL, CLOSE, SHOW_HAND
 from helper import mkdir
